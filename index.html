@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!-- Meta -->
+  <meta charset="UTF-8" />
+  <title>React.js for the Visual Learner</title>
+  
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="styles/index.processed.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+  <!-- Scripts -->
+  <script src="https://unpkg.com/vue@2.1.10/dist/vue.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+</head>
+<body>
+  
+  <!--  Header Template  -->
+  <script type="text/x-template" id="header">
+    <header class="intro-header">
+      <div class="intro-message">
+      	<h1>React.js for the Visual Learner</h1>
+     		<h3>Learn the basics of React.js through design principles</h3>
+        <a href="https://leanpub.com/reactjsforthevisuallearner">
+        	<button class="cta-button">
+          	<span class="icon"><i class="fa fa-bookmark" aria-hidden="true"></i></span>
+            Read Today
+    			</button>
+    		</a>
+      </div>
+    </header>
+  </script>
+  
+  <!--  Section A Template  -->
+  <script type="text/x-template" id="section-a">
+  	<section class="section-a">
+    	<div class="section-message">
+      	<h2>Visual-Friendly Examples</h2>
+        <h4>Learn the core concepts of React in a way you'll remember.</h4>
+        <img class="koala-component" src="resources/koala-component.svg"/>
+      </div>
+ 	 	</section>
+  </script>
+  
+  <!--  Section B Template  -->
+  <script type="text/x-template" id="section-b">
+  	<section class="section-b">
+    	<div class="section-message">
+      	<h2>Super Practical Teaching Methodology</h2>
+        <h4>Less buzz words. Less assumptions. Less fatigue. More practicality.</h4>
+        <img class="float-laptop" src="resources/float-laptop.svg"/>
+      </div>
+ 	 	</section>
+  </script>
+  
+  <!--  Section C Template  -->
+  <script type="text/x-template" id="section-c">
+  	<section class="section-c">
+    	<div class="section-message">
+      	<h2>Real-World Project</h2>
+        <h4>Craft a beautiful user interface with routing and a database.</h4>
+        <img class="app" src="resources/app.svg"/>
+      </div>
+ 	 	</section>
+  </script>
+  
+  <!--  Section D Template  -->
+  <script type="text/x-template" id="section-d">
+  	<section class="section-d">
+    	<div class="section-message">
+      	<h2>Finally Learn React</h2>
+        <a href="https://leanpub.com/reactjsforthevisuallearner">
+        	<button class="cta-button-light">
+          	<span class="icon"><i class="fa fa-bookmark" aria-hidden="true"></i></span>
+            Read Today
+    			</button>
+    		</a>
+      </div>
+ 	 	</section>
+  </script>
+  
+  <!--  Footer  -->
+  <script type="text/x-template" id="footer">
+  	<footer>
+    	<a href="http://codingartist.io/">
+    		<img class="branding" src="resources/logo.png" />
+      </a>
+ 	 	</footer>
+  </script>
+  
+  <div id="app">
+    <top></top>
+    <section-a></section-a>
+    <section-b></section-b>
+    <section-c></section-c>
+    <section-d></section-d>
+    <bottom></bottom>
+  </div>
+  
+  <!-- Scripts -->
+  <script src="/scripts/components.js"></script>
+  <script src="/scripts/index.js"></script>
+</body>
+</html>
